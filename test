@@ -1,0 +1,8 @@
+from z1 import z1
+import unittest
+class Testz1(unittest.TestCase):
+
+    def testSum(self):
+        self.assertEqual(991)
+if __name__=='z1':
+    unittest.main()
